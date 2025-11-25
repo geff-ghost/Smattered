@@ -12,9 +12,10 @@ class FlightBookButton extends StatelessWidget {
       child: Text(
         'Book Your Flight',
         style: TextStyle(
+          fontFamily: 'Raleway',
           fontSize: 20.0,
-          color: Colors.deepOrange,
-          fontWeight: FontWeight.bold,
+          color: Colors.white,
+          fontWeight: FontWeight.w700,
         ),
       ),
     );
